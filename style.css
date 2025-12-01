@@ -6,9 +6,13 @@
  .header {
      display: flex;
      justify-content: space-around;
-     background-color: #1F2937;
      font-size: 24px;
      padding: 10px;
+ }
+
+ .content,
+ .header {
+     background-color: #1F2937;
  }
 
 
@@ -28,10 +32,59 @@
      display: flex;
      gap: 15px;
      color: #e5e7eb;
+
+ }
+
+ .hero {
+     font-size: 48px;
+     color: #f9faf8;
+     font-weight: 900;
+     margin: 0;
+ }
+
+ .right-links,
+ .secondary-text {
      font-size: 18px;
+     color: #e5e7eb;
  }
 
  a {
      text-decoration: none;
      color: inherit;
+ }
+
+ .content {
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     /* center children horizontally as a group */
+     align-items: center;
+     /* center children vertically */
+     gap: 40px;
+     /* space between columns */
+ }
+
+ /* Give left-content a fixed width so it won't grow */
+ .left-content {
+     display: flex;
+     flex-direction: column;
+     flex: 0 0 420px;
+     /* don't grow/shrink; fixed 420px width */
+     justify-content: center;
+     /* center the inner contents vertically */
+     align-items: flex-start;
+     gap: 10px;
+ }
+
+ /* Optional: fix the image column width */
+ .image-placeholder {
+     display: flex;
+     flex-direction: column;
+     flex: 0 0 350px;
+     height: 250px;
+     border: 2px solid #374151;
+     justify-content: center;
+     align-items: center;
+     background-color: lightgray;
+     /* fixed width for consistent layout */
  }
