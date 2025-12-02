@@ -88,3 +88,45 @@
      background-color: lightgray;
      /* fixed width for consistent layout */
  }
+
+ .information-header {
+     display: flex;
+     font-size: 36px;
+     font-weight: 900;
+     color: #1f2937;
+     justify-content: center;
+ }
+
+
+ .content2,
+ .box {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ .illustration {
+     display: flex;
+     flex: 0 0 200px;
+     border: 2px solid #3882f8;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .box {
+     flex: 0 0 200px;
+ }
+
+ .box1,
+ .box2,
+ .box3,
+ .box4 {
+     text-align: center;
+ }
+
+ .bottom {
+     display: flex;
+     flex: 0 0 300px;
+     justify-content: center;
+     gap: 20px;
+ }
