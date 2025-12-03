@@ -98,6 +98,12 @@
  }
 
 
+ .content2 {
+     height: 700px;
+     justify-content: center;
+     align-items: center;
+ }
+
  .content2,
  .box {
      display: flex;
@@ -129,4 +135,35 @@
      flex: 0 0 300px;
      justify-content: center;
      gap: 20px;
+ }
+
+ .content3 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 300px;
+     background-color: #e5e7eb;
+ }
+
+ .quote {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 300;
+     font-size: 36px;
+
+ }
+
+ .author {
+     display: flex;
+     justify-content: flex-end;
+     font-size: 30px;
+     font-weight: 800;
+ }
+
+ .quote,
+ .author {
+     width: 815px;
+     color: #1f2937;
  }
